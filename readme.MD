@@ -13,7 +13,7 @@ If you clone give command after cloning:
 rm -rf .git (to remove git reference to my repo.)
 
 Then give command: docker-compose build
-Then give command: docker.compose up
+Then give command: docker-compose up
 
 This should download needed images, create and start container.
 
