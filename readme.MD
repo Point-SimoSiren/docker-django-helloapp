@@ -1,3 +1,9 @@
+Docker related files are written manually. They tell what dependecies
+our app needs and how to install them aswell as our app.
+The files are: requirements.txt, Dockerfile and docker-compose.yml
+
+---------------------- How to use this ----------------------
+
 Download and install docker for your machine. (google to find it)
 If the process asks you to update something just do it. Its very simple and fast anyway.
 
@@ -6,7 +12,8 @@ Download or clone this project.
 If you clone give command after cloning:
 rm -rf .git (to remove git reference to my repo.)
 
-Then give command: docker-compose up
+Then give command: docker-compose build
+Then give command: docker.compose up
 
 This should download needed images, create and start container.
 
