@@ -21,3 +21,6 @@ then in your browser http://127.0.0.1:8000/ should show the html page.
 
 open another bash/terminal to say: docker-compose down (the first bash is locked while container is running)
 
+More advanced docker setup is here: https://github.com/Point-SimoSiren/recipe-api-docker-django-rest
+There is also postgres configured to run in docker and unit tests for all functionalities.
+
